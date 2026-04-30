@@ -1,0 +1,2053 @@
+phpinfo()
+PHP Version => 8.4.20
+
+System => Linux 618020c5e4f9 6.19.13-orbstack-gbd1dc07b8cf4 #1 SMP PREEMPT Mon Apr 20 11:17:03 UTC 2026 x86_64
+Build Date => Apr 15 2026 20:19:28
+Build System => Linux - Docker
+Build Provider => https://github.com/docker-library/php
+Configure Command =>  './configure'  '--build=x86_64-linux-musl' '--sysconfdir=/usr/local/etc' '--with-config-file-path=/usr/local/etc/php' '--with-config-file-scan-dir=/usr/local/etc/php/conf.d' '--enable-option-checking=fatal' '--with-mhash' '--with-pic' '--enable-mbstring' '--enable-mysqlnd' '--with-password-argon2' '--with-sodium=shared' '--with-pdo-sqlite=/usr' '--with-sqlite3=/usr' '--with-curl' '--with-iconv=/usr' '--with-openssl' '--with-readline' '--with-zlib' '--enable-phpdbg' '--enable-phpdbg-readline' '--with-pear' '--enable-embed' '--enable-zts' '--disable-zend-signals' 'build_alias=x86_64-linux-musl' 'PHP_UNAME=Linux - Docker' 'PHP_BUILD_PROVIDER=https://github.com/docker-library/php'
+Server API => Command Line Interface
+Virtual Directory Support => enabled
+Configuration File (php.ini) Path => /usr/local/etc/php
+Loaded Configuration File => (none)
+Scan this dir for additional .ini files => /usr/local/etc/php/conf.d
+Additional .ini files parsed => /usr/local/etc/php/conf.d/docker-php-ext-opcache.ini,
+/usr/local/etc/php/conf.d/docker-php-ext-pcntl.ini,
+/usr/local/etc/php/conf.d/docker-php-ext-sodium.ini
+
+PHP API => 20240924
+PHP Extension => 20240924
+Zend Extension => 420240924
+Zend Extension Build => API420240924,TS
+PHP Extension Build => API20240924,TS
+PHP Integer Size => 64 bits
+Debug Build => no
+Thread Safety => enabled
+Thread API => POSIX Threads
+Zend Signal Handling => disabled
+Zend Memory Manager => enabled
+Zend Multibyte Support => provided by mbstring
+Zend Max Execution Timers => enabled
+IPv6 Support => enabled
+DTrace Support => disabled
+
+Registered PHP Streams => https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar
+Registered Stream Socket Transports => tcp, udp, unix, udg, ssl, tls, tlsv1.0, tlsv1.1, tlsv1.2, tlsv1.3
+Registered Stream Filters => zlib.*, convert.iconv.*, string.rot13, string.toupper, string.tolower, convert.*, consumed, dechunk
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v4.4.20, Copyright (c) Zend Technologies
+    with Zend OPcache v8.4.20, Copyright (c), by Zend Technologies
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+Core
+
+PHP Version => 8.4.20
+
+Directive => Local Value => Master Value
+allow_url_fopen => On => On
+allow_url_include => Off => Off
+arg_separator.input => & => &
+arg_separator.output => & => &
+auto_append_file => no value => no value
+auto_globals_jit => On => On
+auto_prepend_file => no value => no value
+browscap => no value => no value
+default_charset => UTF-8 => UTF-8
+default_mimetype => text/html => text/html
+disable_classes => no value => no value
+disable_functions => no value => no value
+display_errors => STDOUT => STDOUT
+display_startup_errors => On => On
+doc_root => no value => no value
+docref_ext => no value => no value
+docref_root => no value => no value
+enable_dl => On => On
+enable_post_data_reading => On => On
+error_append_string => no value => no value
+error_log => no value => no value
+error_log_mode => 0644 => 0644
+error_prepend_string => no value => no value
+error_reporting => no value => no value
+expose_php => On => On
+extension_dir => /usr/local/lib/php/extensions/no-debug-zts-20240924 => /usr/local/lib/php/extensions/no-debug-zts-20240924
+fiber.stack_size => no value => no value
+file_uploads => On => On
+hard_timeout => 2 => 2
+highlight.comment => <span style="color: #FF8000">#FF8000</span> => <span style="color: #FF8000">#FF8000</span>
+highlight.default => <span style="color: #0000BB">#0000BB</span> => <span style="color: #0000BB">#0000BB</span>
+highlight.html => <span style="color: #000000">#000000</span> => <span style="color: #000000">#000000</span>
+highlight.keyword => <span style="color: #007700">#007700</span> => <span style="color: #007700">#007700</span>
+highlight.string => <span style="color: #DD0000">#DD0000</span> => <span style="color: #DD0000">#DD0000</span>
+html_errors => Off => Off
+ignore_repeated_errors => Off => Off
+ignore_repeated_source => Off => Off
+ignore_user_abort => Off => Off
+implicit_flush => On => On
+include_path => .:/usr/local/lib/php => .:/usr/local/lib/php
+input_encoding => no value => no value
+internal_encoding => no value => no value
+log_errors => Off => Off
+mail.add_x_header => Off => Off
+mail.force_extra_parameters => no value => no value
+mail.log => no value => no value
+mail.mixed_lf_and_crlf => Off => Off
+max_execution_time => 0 => 0
+max_file_uploads => 20 => 20
+max_input_nesting_level => 64 => 64
+max_input_time => -1 => -1
+max_input_vars => 1000 => 1000
+max_multipart_body_parts => -1 => -1
+memory_limit => 128M => 128M
+open_basedir => no value => no value
+output_buffering => 0 => 0
+output_encoding => no value => no value
+output_handler => no value => no value
+post_max_size => 8M => 8M
+precision => 14 => 14
+realpath_cache_size => 4096K => 4096K
+realpath_cache_ttl => 120 => 120
+register_argc_argv => On => On
+report_memleaks => On => On
+report_zend_debug => Off => Off
+request_order => no value => no value
+sendmail_from => no value => no value
+sendmail_path => /usr/sbin/sendmail -t -i => /usr/sbin/sendmail -t -i
+serialize_precision => -1 => -1
+short_open_tag => On => On
+SMTP => localhost => localhost
+smtp_port => 25 => 25
+sys_temp_dir => no value => no value
+syslog.facility => LOG_USER => LOG_USER
+syslog.filter => no-ctrl => no-ctrl
+syslog.ident => php => php
+unserialize_callback_func => no value => no value
+upload_max_filesize => 2M => 2M
+upload_tmp_dir => no value => no value
+user_dir => no value => no value
+user_ini.cache_ttl => 300 => 300
+user_ini.filename => .user.ini => .user.ini
+variables_order => EGPCS => EGPCS
+xmlrpc_error_number => 0 => 0
+xmlrpc_errors => Off => Off
+zend.assertions => 1 => 1
+zend.detect_unicode => On => On
+zend.enable_gc => On => On
+zend.exception_ignore_args => Off => Off
+zend.exception_string_param_max_len => 15 => 15
+zend.max_allowed_stack_size => 0 => 0
+zend.multibyte => Off => Off
+zend.reserved_stack_size => 0 => 0
+zend.script_encoding => no value => no value
+
+ctype
+
+ctype functions => enabled
+
+curl
+
+cURL support => enabled
+cURL Information => 8.17.0
+Age => 11
+Features
+AsynchDNS => Yes
+CharConv => No
+Debug => No
+GSS-Negotiate => No
+IDN => Yes
+IPv6 => Yes
+krb4 => No
+Largefile => Yes
+libz => Yes
+NTLM => Yes
+NTLMWB => No
+SPNEGO => No
+SSL => Yes
+SSPI => No
+TLS-SRP => Yes
+HTTP2 => Yes
+GSSAPI => No
+KERBEROS5 => No
+UNIX_SOCKETS => Yes
+PSL => Yes
+HTTPS_PROXY => Yes
+MULTI_SSL => No
+BROTLI => Yes
+ALTSVC => Yes
+HTTP3 => Yes
+UNICODE => No
+ZSTD => Yes
+HSTS => Yes
+GSASL => No
+Protocols => dict, file, ftp, ftps, gopher, gophers, http, https, imap, imaps, mqtt, pop3, pop3s, rtsp, smb, smbs, smtp, smtps, telnet, tftp, ws, wss
+Host => x86_64-alpine-linux-musl
+SSL Version => OpenSSL/3.5.6
+ZLib Version => 1.3.2
+
+Directive => Local Value => Master Value
+curl.cainfo => no value => no value
+
+date
+
+date/time support => enabled
+timelib version => 2022.15
+"Olson" Timezone Database Version => 2026.1
+Timezone Database => internal
+Default timezone => UTC
+
+Directive => Local Value => Master Value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunrise_zenith => 90.833333 => 90.833333
+date.sunset_zenith => 90.833333 => 90.833333
+date.timezone => UTC => UTC
+
+dom
+
+DOM/XML => enabled
+DOM/XML API Version => 20031129
+libxml Version => 2.13.9
+HTML Support => enabled
+XPath Support => enabled
+XPointer Support => enabled
+Schema Support => enabled
+RelaxNG Support => enabled
+
+fileinfo
+
+fileinfo support => enabled
+libmagic => 545
+
+filter
+
+Input Validation and Filtering => enabled
+
+Directive => Local Value => Master Value
+filter.default => unsafe_raw => unsafe_raw
+filter.default_flags => no value => no value
+
+hash
+
+hash support => enabled
+Hashing Engines => md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b crc32c fnv132 fnv1a32 fnv164 fnv1a64 joaat murmur3a murmur3c murmur3f xxh32 xxh64 xxh3 xxh128 haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
+
+MHASH support => Enabled
+MHASH API Version => Emulated Support
+
+iconv
+
+iconv support => enabled
+iconv implementation => libiconv
+iconv library version => 1.18
+
+Directive => Local Value => Master Value
+iconv.input_encoding => no value => no value
+iconv.internal_encoding => no value => no value
+iconv.output_encoding => no value => no value
+
+json
+
+json support => enabled
+
+libxml
+
+libXML support => active
+libXML Compiled Version => 2.13.9
+libXML Loaded Version => 21309
+libXML streams => enabled
+
+mbstring
+
+Multibyte Support => enabled
+Multibyte string engine => libmbfl
+HTTP input encoding translation => disabled
+libmbfl version => 1.3.2
+
+mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.
+
+Multibyte (japanese) regex support => enabled
+Multibyte regex (oniguruma) version => 6.9.10
+
+Directive => Local Value => Master Value
+mbstring.detect_order => no value => no value
+mbstring.encoding_translation => Off => Off
+mbstring.http_input => no value => no value
+mbstring.http_output => no value => no value
+mbstring.http_output_conv_mimetypes => ^(text/|application/xhtml\+xml) => ^(text/|application/xhtml\+xml)
+mbstring.internal_encoding => no value => no value
+mbstring.language => neutral => neutral
+mbstring.regex_retry_limit => 1000000 => 1000000
+mbstring.regex_stack_limit => 100000 => 100000
+mbstring.strict_detection => Off => Off
+mbstring.substitute_character => no value => no value
+
+mysqlnd
+
+mysqlnd => enabled
+Version => mysqlnd 8.4.20
+Compression => supported
+core SSL => supported
+extended SSL => supported
+Command buffer size => 4096
+Read buffer size => 32768
+Read timeout => 86400
+Collecting statistics => Yes
+Collecting memory statistics => No
+Tracing => n/a
+Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password,auth_plugin_caching_sha2_password,auth_plugin_sha256_password
+API Extensions =>  
+
+openssl
+
+OpenSSL support => enabled
+OpenSSL Library Version => OpenSSL 3.5.6 7 Apr 2026
+OpenSSL Header Version => OpenSSL 3.5.6 7 Apr 2026
+Openssl default config => /etc/ssl/openssl.cnf
+
+Directive => Local Value => Master Value
+openssl.cafile => no value => no value
+openssl.capath => no value => no value
+
+pcntl
+
+pcntl support => enabled
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support => enabled
+PCRE Library Version => 10.44 2024-06-07
+PCRE Unicode Version => 15.0.0
+PCRE JIT Support => enabled
+PCRE JIT Target => x86 64bit (little endian + unaligned)
+
+Directive => Local Value => Master Value
+pcre.backtrack_limit => 1000000 => 1000000
+pcre.jit => On => On
+pcre.recursion_limit => 100000 => 100000
+
+PDO
+
+PDO support => enabled
+PDO drivers => sqlite
+
+pdo_sqlite
+
+PDO Driver for SQLite 3.x => enabled
+SQLite Library => 3.51.2
+
+Phar
+
+Phar: PHP Archive support => enabled
+Phar API version => 1.1.1
+Phar-based phar archives => enabled
+Tar-based phar archives => enabled
+ZIP-based phar archives => enabled
+gzip compression => enabled
+bzip2 compression => disabled (install ext/bz2)
+Native OpenSSL support => enabled
+
+
+Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+Phar fully realized by Gregory Beaver and Marcus Boerger.
+Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+Directive => Local Value => Master Value
+phar.cache_list => no value => no value
+phar.readonly => On => On
+phar.require_hash => On => On
+
+posix
+
+POSIX support => enabled
+
+random
+
+Version => 8.4.20
+
+readline
+
+Readline Support => enabled
+Readline library => 8.3
+
+Directive => Local Value => Master Value
+cli.pager => no value => no value
+cli.prompt => \b \>  => \b \> 
+
+Reflection
+
+Reflection => enabled
+
+session
+
+Session Support => enabled
+Registered save handlers => files user 
+Registered serializer handlers => php_serialize php php_binary 
+
+Directive => Local Value => Master Value
+session.auto_start => Off => Off
+session.cache_expire => 180 => 180
+session.cache_limiter => nocache => nocache
+session.cookie_domain => no value => no value
+session.cookie_httponly => Off => Off
+session.cookie_lifetime => 0 => 0
+session.cookie_path => / => /
+session.cookie_samesite => no value => no value
+session.cookie_secure => Off => Off
+session.gc_divisor => 100 => 100
+session.gc_maxlifetime => 1440 => 1440
+session.gc_probability => 1 => 1
+session.lazy_write => On => On
+session.name => PHPSESSID => PHPSESSID
+session.referer_check => no value => no value
+session.save_handler => files => files
+session.save_path => no value => no value
+session.serialize_handler => php => php
+session.sid_bits_per_character => 4 => 4
+session.sid_length => 32 => 32
+session.upload_progress.cleanup => On => On
+session.upload_progress.enabled => On => On
+session.upload_progress.freq => 1% => 1%
+session.upload_progress.min_freq => 1 => 1
+session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
+session.upload_progress.prefix => upload_progress_ => upload_progress_
+session.use_cookies => On => On
+session.use_only_cookies => On => On
+session.use_strict_mode => Off => Off
+session.use_trans_sid => Off => Off
+
+SimpleXML
+
+SimpleXML support => enabled
+Schema support => enabled
+
+sodium
+
+sodium support => enabled
+libsodium headers version => 1.0.20
+libsodium library version => 1.0.20
+
+SPL
+
+SPL support => enabled
+Interfaces => OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+sqlite3
+
+SQLite3 support => enabled
+SQLite Library => 3.51.2
+
+Directive => Local Value => Master Value
+sqlite3.defensive => On => On
+sqlite3.extension_dir => no value => no value
+
+standard
+
+Dynamic Library Support => enabled
+Path to sendmail => /usr/sbin/sendmail -t -i
+
+Directive => Local Value => Master Value
+assert.active => On => On
+assert.bail => Off => Off
+assert.callback => no value => no value
+assert.exception => On => On
+assert.warning => On => On
+auto_detect_line_endings => Off => Off
+default_socket_timeout => 60 => 60
+from => no value => no value
+session.trans_sid_hosts => no value => no value
+session.trans_sid_tags => a=href,area=href,frame=src,form= => a=href,area=href,frame=src,form=
+unserialize_max_depth => 4096 => 4096
+url_rewriter.hosts => no value => no value
+url_rewriter.tags => form= => form=
+user_agent => no value => no value
+
+tokenizer
+
+Tokenizer Support => enabled
+
+xml
+
+XML Support => active
+XML Namespace Support => active
+libxml2 Version => 2.13.9
+
+xmlreader
+
+XMLReader => enabled
+
+xmlwriter
+
+XMLWriter => enabled
+
+Zend OPcache
+
+Opcode Caching => Disabled
+Optimization => Disabled
+SHM Cache => Enabled
+File Cache => Disabled
+JIT => Disabled
+Startup Failed => Opcode Caching is disabled for CLI
+
+Directive => Local Value => Master Value
+opcache.blacklist_filename => no value => no value
+opcache.dups_fix => Off => Off
+opcache.enable => On => On
+opcache.enable_cli => Off => Off
+opcache.enable_file_override => Off => Off
+opcache.error_log => no value => no value
+opcache.file_cache => no value => no value
+opcache.file_cache_consistency_checks => On => On
+opcache.file_cache_only => Off => Off
+opcache.file_update_protection => 2 => 2
+opcache.force_restart_timeout => 180 => 180
+opcache.huge_code_pages => Off => Off
+opcache.interned_strings_buffer => 8 => 8
+opcache.jit => disable => disable
+opcache.jit_bisect_limit => 0 => 0
+opcache.jit_blacklist_root_trace => 16 => 16
+opcache.jit_blacklist_side_trace => 8 => 8
+opcache.jit_buffer_size => 64M => 64M
+opcache.jit_debug => 0 => 0
+opcache.jit_hot_func => 127 => 127
+opcache.jit_hot_loop => 64 => 64
+opcache.jit_hot_return => 8 => 8
+opcache.jit_hot_side_exit => 8 => 8
+opcache.jit_max_exit_counters => 8192 => 8192
+opcache.jit_max_loop_unrolls => 8 => 8
+opcache.jit_max_polymorphic_calls => 2 => 2
+opcache.jit_max_recursive_calls => 2 => 2
+opcache.jit_max_recursive_returns => 2 => 2
+opcache.jit_max_root_traces => 1024 => 1024
+opcache.jit_max_side_traces => 128 => 128
+opcache.jit_max_trace_length => 1024 => 1024
+opcache.jit_prof_threshold => 0.005 => 0.005
+opcache.lockfile_path => /tmp => /tmp
+opcache.log_verbosity_level => 1 => 1
+opcache.max_accelerated_files => 10000 => 10000
+opcache.max_file_size => 0 => 0
+opcache.max_wasted_percentage => 5 => 5
+opcache.memory_consumption => 128 => 128
+opcache.opt_debug_level => 0 => 0
+opcache.optimization_level => 0x7FFEBFFF => 0x7FFEBFFF
+opcache.preferred_memory_model => no value => no value
+opcache.preload => no value => no value
+opcache.preload_user => no value => no value
+opcache.protect_memory => Off => Off
+opcache.record_warnings => Off => Off
+opcache.restrict_api => no value => no value
+opcache.revalidate_freq => 2 => 2
+opcache.revalidate_path => Off => Off
+opcache.save_comments => On => On
+opcache.use_cwd => On => On
+opcache.validate_permission => Off => Off
+opcache.validate_root => Off => Off
+opcache.validate_timestamps => On => On
+
+zlib
+
+ZLib Support => enabled
+Stream Wrapper => compress.zlib://
+Stream Filter => zlib.inflate, zlib.deflate
+Compiled Version => 1.3.2
+Linked Version => 1.3.2
+
+Directive => Local Value => Master Value
+zlib.output_compression => Off => Off
+zlib.output_compression_level => -1 => -1
+zlib.output_handler => no value => no value
+
+Additional Modules
+
+Module Name
+
+Environment
+
+Variable => Value
+UNKNOWN_4 =>  
+OK_398 =>  
+UNKNOWN_5 =>  
+OK_399 =>  
+UNKNOWN_6 =>  
+UNKNOWN_7 =>  
+HOSTNAME => 618020c5e4f9
+UNKNOWN_8 =>  
+PHP_INI_DIR => /usr/local/etc/php
+UNKNOWN_9 =>  
+SHLVL => 1
+UNKNOWN_10 =>  
+CRASH_SEGFAULT_412 =>  
+CRASH_SEGFAULT_430 =>  
+HOME => /root
+UNKNOWN_11 =>  
+UNKNOWN_20 =>  
+CRASH_SEGFAULT_440 =>  
+GODEBUG => cgocheck=0
+UNKNOWN_12 =>  
+UNKNOWN_21 =>  
+UNKNOWN_30 =>  
+CRASH_SEGFAULT_432 =>  
+CRASH_SEGFAULT_441 =>  
+CRASH_SEGFAULT_450 =>  
+UNKNOWN_13 =>  
+UNKNOWN_22 =>  
+UNKNOWN_31 =>  
+UNKNOWN_40 =>  
+CRASH_SEGFAULT_424 =>  
+CRASH_SEGFAULT_451 =>  
+CRASH_SEGFAULT_460 =>  
+UNKNOWN_14 =>  
+UNKNOWN_23 =>  
+UNKNOWN_32 =>  
+UNKNOWN_41 =>  
+UNKNOWN_50 =>  
+CRASH_SEGFAULT_452 =>  
+CRASH_SEGFAULT_461 =>  
+PHP_LDFLAGS => -Wl,-O1 -pie
+UNKNOWN_15 =>  
+UNKNOWN_24 =>  
+UNKNOWN_33 =>  
+UNKNOWN_42 =>  
+UNKNOWN_51 =>  
+UNKNOWN_60 =>  
+CRASH_SEGFAULT_408 =>  
+CRASH_SEGFAULT_453 =>  
+CRASH_SEGFAULT_462 =>  
+PHP_CFLAGS => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+UNKNOWN_16 =>  
+UNKNOWN_25 =>  
+UNKNOWN_34 =>  
+UNKNOWN_43 =>  
+UNKNOWN_52 =>  
+UNKNOWN_61 =>  
+UNKNOWN_70 =>  
+CRASH_SEGFAULT_436 =>  
+CRASH_SEGFAULT_445 =>  
+CRASH_SEGFAULT_454 =>  
+PHP_VERSION => 8.4.20
+UNKNOWN_17 =>  
+UNKNOWN_26 =>  
+UNKNOWN_35 =>  
+UNKNOWN_44 =>  
+UNKNOWN_53 =>  
+UNKNOWN_62 =>  
+UNKNOWN_71 =>  
+UNKNOWN_80 =>  
+CRASH_SEGFAULT_437 =>  
+CRASH_SEGFAULT_455 =>  
+CRASH_SEGFAULT_464 =>  
+UNKNOWN_18 =>  
+UNKNOWN_27 =>  
+UNKNOWN_36 =>  
+UNKNOWN_45 =>  
+UNKNOWN_54 =>  
+UNKNOWN_63 =>  
+UNKNOWN_72 =>  
+UNKNOWN_81 =>  
+UNKNOWN_90 =>  
+CRASH_SEGFAULT_438 =>  
+CRASH_SEGFAULT_447 =>  
+CRASH_SEGFAULT_465 =>  
+GPG_KEYS => AFD8691FDAEDF03BDF6E460563F15A9B715376CA 9D7F99A0CB8F05C8A6958D6256A97AF7600A39A6 0616E93D95AF471243E26761770426E17EBBB3DD
+UNKNOWN_19 =>  
+UNKNOWN_28 =>  
+UNKNOWN_37 =>  
+UNKNOWN_46 =>  
+UNKNOWN_55 =>  
+UNKNOWN_64 =>  
+UNKNOWN_73 =>  
+UNKNOWN_82 =>  
+UNKNOWN_91 =>  
+UNKNOWN_100 =>  
+CRASH_SEGFAULT_448 =>  
+PHP_CPPFLAGS => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+PHP_ASC_URL => https://www.php.net/distributions/php-8.4.20.tar.xz.asc
+UNKNOWN_29 =>  
+UNKNOWN_38 =>  
+UNKNOWN_47 =>  
+UNKNOWN_56 =>  
+UNKNOWN_65 =>  
+UNKNOWN_74 =>  
+UNKNOWN_83 =>  
+UNKNOWN_92 =>  
+UNKNOWN_101 =>  
+UNKNOWN_110 =>  
+UNKNOWN_200 =>  
+CRASH_SEGFAULT_449 =>  
+CRASH_SEGFAULT_458 =>  
+CRASH_SEGFAULT_467 =>  
+UNKNOWN_39 =>  
+UNKNOWN_48 =>  
+UNKNOWN_57 =>  
+UNKNOWN_66 =>  
+UNKNOWN_75 =>  
+UNKNOWN_84 =>  
+UNKNOWN_93 =>  
+UNKNOWN_102 =>  
+UNKNOWN_111 =>  
+UNKNOWN_120 =>  
+UNKNOWN_201 =>  
+UNKNOWN_210 =>  
+UNKNOWN_300 =>  
+CRASH_SEGFAULT_459 =>  
+PHP_URL => https://www.php.net/distributions/php-8.4.20.tar.xz
+UNKNOWN_49 =>  
+UNKNOWN_58 =>  
+UNKNOWN_67 =>  
+UNKNOWN_76 =>  
+UNKNOWN_85 =>  
+UNKNOWN_94 =>  
+UNKNOWN_103 =>  
+UNKNOWN_112 =>  
+UNKNOWN_121 =>  
+UNKNOWN_130 =>  
+UNKNOWN_202 =>  
+UNKNOWN_211 =>  
+UNKNOWN_220 =>  
+UNKNOWN_301 =>  
+UNKNOWN_310 =>  
+UNKNOWN_59 =>  
+UNKNOWN_68 =>  
+UNKNOWN_77 =>  
+UNKNOWN_86 =>  
+UNKNOWN_95 =>  
+UNKNOWN_104 =>  
+UNKNOWN_113 =>  
+UNKNOWN_122 =>  
+UNKNOWN_131 =>  
+UNKNOWN_140 =>  
+UNKNOWN_203 =>  
+UNKNOWN_212 =>  
+UNKNOWN_221 =>  
+UNKNOWN_230 =>  
+UNKNOWN_302 =>  
+UNKNOWN_311 =>  
+UNKNOWN_320 =>  
+UNKNOWN_69 =>  
+UNKNOWN_78 =>  
+UNKNOWN_87 =>  
+UNKNOWN_96 =>  
+UNKNOWN_105 =>  
+UNKNOWN_114 =>  
+UNKNOWN_123 =>  
+UNKNOWN_132 =>  
+UNKNOWN_141 =>  
+UNKNOWN_150 =>  
+UNKNOWN_204 =>  
+UNKNOWN_213 =>  
+UNKNOWN_222 =>  
+UNKNOWN_231 =>  
+UNKNOWN_240 =>  
+UNKNOWN_303 =>  
+UNKNOWN_312 =>  
+UNKNOWN_321 =>  
+UNKNOWN_330 =>  
+PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+UNKNOWN_79 =>  
+UNKNOWN_88 =>  
+UNKNOWN_97 =>  
+UNKNOWN_106 =>  
+UNKNOWN_115 =>  
+UNKNOWN_124 =>  
+UNKNOWN_133 =>  
+UNKNOWN_142 =>  
+UNKNOWN_151 =>  
+UNKNOWN_160 =>  
+UNKNOWN_205 =>  
+UNKNOWN_214 =>  
+UNKNOWN_223 =>  
+UNKNOWN_232 =>  
+UNKNOWN_241 =>  
+UNKNOWN_250 =>  
+UNKNOWN_304 =>  
+UNKNOWN_313 =>  
+UNKNOWN_322 =>  
+UNKNOWN_331 =>  
+UNKNOWN_340 =>  
+UNKNOWN_89 =>  
+UNKNOWN_98 =>  
+UNKNOWN_107 =>  
+UNKNOWN_116 =>  
+UNKNOWN_125 =>  
+UNKNOWN_134 =>  
+UNKNOWN_143 =>  
+UNKNOWN_152 =>  
+UNKNOWN_161 =>  
+UNKNOWN_170 =>  
+UNKNOWN_206 =>  
+UNKNOWN_215 =>  
+UNKNOWN_224 =>  
+UNKNOWN_233 =>  
+UNKNOWN_242 =>  
+UNKNOWN_251 =>  
+UNKNOWN_260 =>  
+UNKNOWN_305 =>  
+UNKNOWN_314 =>  
+UNKNOWN_323 =>  
+UNKNOWN_332 =>  
+UNKNOWN_341 =>  
+UNKNOWN_350 =>  
+UNKNOWN_99 =>  
+UNKNOWN_108 =>  
+UNKNOWN_117 =>  
+UNKNOWN_126 =>  
+UNKNOWN_135 =>  
+UNKNOWN_144 =>  
+UNKNOWN_153 =>  
+UNKNOWN_162 =>  
+UNKNOWN_171 =>  
+UNKNOWN_180 =>  
+UNKNOWN_207 =>  
+UNKNOWN_216 =>  
+UNKNOWN_225 =>  
+UNKNOWN_234 =>  
+UNKNOWN_243 =>  
+UNKNOWN_252 =>  
+UNKNOWN_261 =>  
+UNKNOWN_270 =>  
+UNKNOWN_306 =>  
+UNKNOWN_315 =>  
+UNKNOWN_324 =>  
+UNKNOWN_333 =>  
+UNKNOWN_342 =>  
+UNKNOWN_351 =>  
+UNKNOWN_360 =>  
+OK_400 =>  
+UNKNOWN_109 =>  
+UNKNOWN_118 =>  
+UNKNOWN_127 =>  
+UNKNOWN_136 =>  
+UNKNOWN_145 =>  
+UNKNOWN_154 =>  
+UNKNOWN_163 =>  
+UNKNOWN_172 =>  
+UNKNOWN_181 =>  
+UNKNOWN_190 =>  
+UNKNOWN_208 =>  
+UNKNOWN_217 =>  
+UNKNOWN_226 =>  
+UNKNOWN_235 =>  
+UNKNOWN_244 =>  
+UNKNOWN_253 =>  
+UNKNOWN_262 =>  
+UNKNOWN_271 =>  
+UNKNOWN_280 =>  
+UNKNOWN_307 =>  
+UNKNOWN_316 =>  
+UNKNOWN_325 =>  
+UNKNOWN_334 =>  
+UNKNOWN_343 =>  
+UNKNOWN_352 =>  
+UNKNOWN_361 =>  
+UNKNOWN_370 =>  
+OK_401 =>  
+OK_410 =>  
+UNKNOWN_119 =>  
+UNKNOWN_128 =>  
+UNKNOWN_137 =>  
+UNKNOWN_146 =>  
+UNKNOWN_155 =>  
+UNKNOWN_164 =>  
+UNKNOWN_173 =>  
+UNKNOWN_182 =>  
+UNKNOWN_191 =>  
+UNKNOWN_209 =>  
+UNKNOWN_218 =>  
+UNKNOWN_227 =>  
+UNKNOWN_236 =>  
+UNKNOWN_245 =>  
+UNKNOWN_254 =>  
+UNKNOWN_263 =>  
+UNKNOWN_272 =>  
+UNKNOWN_281 =>  
+UNKNOWN_290 =>  
+UNKNOWN_308 =>  
+UNKNOWN_317 =>  
+UNKNOWN_326 =>  
+UNKNOWN_335 =>  
+UNKNOWN_344 =>  
+UNKNOWN_353 =>  
+UNKNOWN_362 =>  
+UNKNOWN_371 =>  
+UNKNOWN_380 =>  
+OK_402 =>  
+OK_411 =>  
+OK_420 =>  
+XDG_CONFIG_HOME => /config
+XDG_DATA_HOME => /data
+UNKNOWN_129 =>  
+UNKNOWN_138 =>  
+UNKNOWN_147 =>  
+UNKNOWN_156 =>  
+UNKNOWN_165 =>  
+UNKNOWN_174 =>  
+UNKNOWN_183 =>  
+UNKNOWN_192 =>  
+UNKNOWN_219 =>  
+UNKNOWN_228 =>  
+UNKNOWN_237 =>  
+UNKNOWN_246 =>  
+UNKNOWN_255 =>  
+UNKNOWN_264 =>  
+UNKNOWN_273 =>  
+UNKNOWN_282 =>  
+UNKNOWN_291 =>  
+UNKNOWN_309 =>  
+UNKNOWN_318 =>  
+UNKNOWN_327 =>  
+UNKNOWN_336 =>  
+UNKNOWN_345 =>  
+UNKNOWN_354 =>  
+UNKNOWN_363 =>  
+UNKNOWN_372 =>  
+UNKNOWN_381 =>  
+OK_403 =>  
+OK_421 =>  
+CRASH_SILENT_434 =>  
+UNKNOWN_139 =>  
+UNKNOWN_148 =>  
+UNKNOWN_157 =>  
+UNKNOWN_166 =>  
+UNKNOWN_175 =>  
+UNKNOWN_184 =>  
+UNKNOWN_193 =>  
+UNKNOWN_229 =>  
+UNKNOWN_238 =>  
+UNKNOWN_247 =>  
+UNKNOWN_256 =>  
+UNKNOWN_265 =>  
+UNKNOWN_274 =>  
+UNKNOWN_283 =>  
+UNKNOWN_292 =>  
+UNKNOWN_319 =>  
+UNKNOWN_328 =>  
+UNKNOWN_337 =>  
+UNKNOWN_346 =>  
+UNKNOWN_355 =>  
+UNKNOWN_364 =>  
+UNKNOWN_373 =>  
+UNKNOWN_382 =>  
+OK_404 =>  
+OK_413 =>  
+OK_422 =>  
+OK_431 =>  
+UNKNOWN_149 =>  
+UNKNOWN_158 =>  
+UNKNOWN_167 =>  
+UNKNOWN_176 =>  
+UNKNOWN_185 =>  
+UNKNOWN_194 =>  
+UNKNOWN_239 =>  
+UNKNOWN_248 =>  
+UNKNOWN_257 =>  
+UNKNOWN_266 =>  
+UNKNOWN_275 =>  
+UNKNOWN_284 =>  
+UNKNOWN_293 =>  
+UNKNOWN_329 =>  
+UNKNOWN_338 =>  
+UNKNOWN_347 =>  
+UNKNOWN_356 =>  
+UNKNOWN_365 =>  
+UNKNOWN_374 =>  
+UNKNOWN_383 =>  
+OK_405 =>  
+OK_414 =>  
+OK_423 =>  
+CRASH_SILENT_463 =>  
+UNKNOWN_159 =>  
+UNKNOWN_168 =>  
+UNKNOWN_177 =>  
+UNKNOWN_186 =>  
+UNKNOWN_195 =>  
+UNKNOWN_249 =>  
+UNKNOWN_258 =>  
+UNKNOWN_267 =>  
+UNKNOWN_276 =>  
+UNKNOWN_285 =>  
+UNKNOWN_294 =>  
+UNKNOWN_339 =>  
+UNKNOWN_348 =>  
+UNKNOWN_357 =>  
+UNKNOWN_366 =>  
+UNKNOWN_375 =>  
+UNKNOWN_384 =>  
+OK_406 =>  
+OK_415 =>  
+OK_433 =>  
+OK_442 =>  
+UNKNOWN_169 =>  
+UNKNOWN_178 =>  
+UNKNOWN_187 =>  
+UNKNOWN_196 =>  
+UNKNOWN_259 =>  
+UNKNOWN_268 =>  
+UNKNOWN_277 =>  
+UNKNOWN_286 =>  
+UNKNOWN_295 =>  
+UNKNOWN_349 =>  
+UNKNOWN_358 =>  
+UNKNOWN_367 =>  
+UNKNOWN_376 =>  
+UNKNOWN_385 =>  
+OK_407 =>  
+OK_416 =>  
+OK_425 =>  
+OK_443 =>  
+CRASH_SILENT_456 =>  
+UNKNOWN_179 =>  
+UNKNOWN_188 =>  
+UNKNOWN_197 =>  
+UNKNOWN_269 =>  
+UNKNOWN_278 =>  
+UNKNOWN_287 =>  
+UNKNOWN_296 =>  
+UNKNOWN_359 =>  
+UNKNOWN_368 =>  
+UNKNOWN_377 =>  
+UNKNOWN_386 =>  
+OK_390 =>  
+OK_417 =>  
+OK_426 =>  
+OK_435 =>  
+OK_444 =>  
+CRASH_SILENT_466 =>  
+UNKNOWN_189 =>  
+UNKNOWN_198 =>  
+UNKNOWN_279 =>  
+UNKNOWN_288 =>  
+UNKNOWN_297 =>  
+UNKNOWN_369 =>  
+UNKNOWN_378 =>  
+UNKNOWN_387 =>  
+OK_391 =>  
+OK_409 =>  
+OK_418 =>  
+OK_427 =>  
+UNKNOWN_199 =>  
+UNKNOWN_289 =>  
+UNKNOWN_298 =>  
+UNKNOWN_379 =>  
+UNKNOWN_388 =>  
+OK_392 =>  
+OK_419 =>  
+OK_428 =>  
+OK_446 =>  
+PHPIZE_DEPS => autoconf 		dpkg-dev dpkg 		file 		g++ 		gcc 		libc-dev 		make 		pkgconf 		re2c
+PWD => /app
+UNKNOWN_299 =>  
+UNKNOWN_389 =>  
+OK_393 =>  
+OK_429 =>  
+PHP_SHA256 => e454c6f7c89a42f41ebb06dc5c3578e8c8b5f1a3f0da6675665affab04e221f7
+OK_394 =>  
+OK_439 =>  
+OK_457 =>  
+UNKNOWN_1 =>  
+OK_395 =>  
+UNKNOWN_2 =>  
+OK_396 =>  
+UNKNOWN_3 =>  
+OK_397 =>  
+
+PHP Variables
+
+Variable => Value
+$_SERVER['UNKNOWN_4'] => 
+$_SERVER['OK_398'] => 
+$_SERVER['UNKNOWN_5'] => 
+$_SERVER['OK_399'] => 
+$_SERVER['UNKNOWN_6'] => 
+$_SERVER['UNKNOWN_7'] => 
+$_SERVER['HOSTNAME'] => 618020c5e4f9
+$_SERVER['UNKNOWN_8'] => 
+$_SERVER['PHP_INI_DIR'] => /usr/local/etc/php
+$_SERVER['UNKNOWN_9'] => 
+$_SERVER['SHLVL'] => 1
+$_SERVER['UNKNOWN_10'] => 
+$_SERVER['CRASH_SEGFAULT_412'] => 
+$_SERVER['CRASH_SEGFAULT_430'] => 
+$_SERVER['HOME'] => /root
+$_SERVER['UNKNOWN_11'] => 
+$_SERVER['UNKNOWN_20'] => 
+$_SERVER['CRASH_SEGFAULT_440'] => 
+$_SERVER['GODEBUG'] => cgocheck=0
+$_SERVER['UNKNOWN_12'] => 
+$_SERVER['UNKNOWN_21'] => 
+$_SERVER['UNKNOWN_30'] => 
+$_SERVER['CRASH_SEGFAULT_432'] => 
+$_SERVER['CRASH_SEGFAULT_441'] => 
+$_SERVER['CRASH_SEGFAULT_450'] => 
+$_SERVER['UNKNOWN_13'] => 
+$_SERVER['UNKNOWN_22'] => 
+$_SERVER['UNKNOWN_31'] => 
+$_SERVER['UNKNOWN_40'] => 
+$_SERVER['CRASH_SEGFAULT_424'] => 
+$_SERVER['CRASH_SEGFAULT_451'] => 
+$_SERVER['CRASH_SEGFAULT_460'] => 
+$_SERVER['UNKNOWN_14'] => 
+$_SERVER['UNKNOWN_23'] => 
+$_SERVER['UNKNOWN_32'] => 
+$_SERVER['UNKNOWN_41'] => 
+$_SERVER['UNKNOWN_50'] => 
+$_SERVER['CRASH_SEGFAULT_452'] => 
+$_SERVER['CRASH_SEGFAULT_461'] => 
+$_SERVER['PHP_LDFLAGS'] => -Wl,-O1 -pie
+$_SERVER['UNKNOWN_15'] => 
+$_SERVER['UNKNOWN_24'] => 
+$_SERVER['UNKNOWN_33'] => 
+$_SERVER['UNKNOWN_42'] => 
+$_SERVER['UNKNOWN_51'] => 
+$_SERVER['UNKNOWN_60'] => 
+$_SERVER['CRASH_SEGFAULT_408'] => 
+$_SERVER['CRASH_SEGFAULT_453'] => 
+$_SERVER['CRASH_SEGFAULT_462'] => 
+$_SERVER['PHP_CFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+$_SERVER['UNKNOWN_16'] => 
+$_SERVER['UNKNOWN_25'] => 
+$_SERVER['UNKNOWN_34'] => 
+$_SERVER['UNKNOWN_43'] => 
+$_SERVER['UNKNOWN_52'] => 
+$_SERVER['UNKNOWN_61'] => 
+$_SERVER['UNKNOWN_70'] => 
+$_SERVER['CRASH_SEGFAULT_436'] => 
+$_SERVER['CRASH_SEGFAULT_445'] => 
+$_SERVER['CRASH_SEGFAULT_454'] => 
+$_SERVER['PHP_VERSION'] => 8.4.20
+$_SERVER['UNKNOWN_17'] => 
+$_SERVER['UNKNOWN_26'] => 
+$_SERVER['UNKNOWN_35'] => 
+$_SERVER['UNKNOWN_44'] => 
+$_SERVER['UNKNOWN_53'] => 
+$_SERVER['UNKNOWN_62'] => 
+$_SERVER['UNKNOWN_71'] => 
+$_SERVER['UNKNOWN_80'] => 
+$_SERVER['CRASH_SEGFAULT_437'] => 
+$_SERVER['CRASH_SEGFAULT_455'] => 
+$_SERVER['CRASH_SEGFAULT_464'] => 
+$_SERVER['UNKNOWN_18'] => 
+$_SERVER['UNKNOWN_27'] => 
+$_SERVER['UNKNOWN_36'] => 
+$_SERVER['UNKNOWN_45'] => 
+$_SERVER['UNKNOWN_54'] => 
+$_SERVER['UNKNOWN_63'] => 
+$_SERVER['UNKNOWN_72'] => 
+$_SERVER['UNKNOWN_81'] => 
+$_SERVER['UNKNOWN_90'] => 
+$_SERVER['CRASH_SEGFAULT_438'] => 
+$_SERVER['CRASH_SEGFAULT_447'] => 
+$_SERVER['CRASH_SEGFAULT_465'] => 
+$_SERVER['GPG_KEYS'] => AFD8691FDAEDF03BDF6E460563F15A9B715376CA 9D7F99A0CB8F05C8A6958D6256A97AF7600A39A6 0616E93D95AF471243E26761770426E17EBBB3DD
+$_SERVER['UNKNOWN_19'] => 
+$_SERVER['UNKNOWN_28'] => 
+$_SERVER['UNKNOWN_37'] => 
+$_SERVER['UNKNOWN_46'] => 
+$_SERVER['UNKNOWN_55'] => 
+$_SERVER['UNKNOWN_64'] => 
+$_SERVER['UNKNOWN_73'] => 
+$_SERVER['UNKNOWN_82'] => 
+$_SERVER['UNKNOWN_91'] => 
+$_SERVER['UNKNOWN_100'] => 
+$_SERVER['CRASH_SEGFAULT_448'] => 
+$_SERVER['PHP_CPPFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+$_SERVER['PHP_ASC_URL'] => https://www.php.net/distributions/php-8.4.20.tar.xz.asc
+$_SERVER['UNKNOWN_29'] => 
+$_SERVER['UNKNOWN_38'] => 
+$_SERVER['UNKNOWN_47'] => 
+$_SERVER['UNKNOWN_56'] => 
+$_SERVER['UNKNOWN_65'] => 
+$_SERVER['UNKNOWN_74'] => 
+$_SERVER['UNKNOWN_83'] => 
+$_SERVER['UNKNOWN_92'] => 
+$_SERVER['UNKNOWN_101'] => 
+$_SERVER['UNKNOWN_110'] => 
+$_SERVER['UNKNOWN_200'] => 
+$_SERVER['CRASH_SEGFAULT_449'] => 
+$_SERVER['CRASH_SEGFAULT_458'] => 
+$_SERVER['CRASH_SEGFAULT_467'] => 
+$_SERVER['UNKNOWN_39'] => 
+$_SERVER['UNKNOWN_48'] => 
+$_SERVER['UNKNOWN_57'] => 
+$_SERVER['UNKNOWN_66'] => 
+$_SERVER['UNKNOWN_75'] => 
+$_SERVER['UNKNOWN_84'] => 
+$_SERVER['UNKNOWN_93'] => 
+$_SERVER['UNKNOWN_102'] => 
+$_SERVER['UNKNOWN_111'] => 
+$_SERVER['UNKNOWN_120'] => 
+$_SERVER['UNKNOWN_201'] => 
+$_SERVER['UNKNOWN_210'] => 
+$_SERVER['UNKNOWN_300'] => 
+$_SERVER['CRASH_SEGFAULT_459'] => 
+$_SERVER['PHP_URL'] => https://www.php.net/distributions/php-8.4.20.tar.xz
+$_SERVER['UNKNOWN_49'] => 
+$_SERVER['UNKNOWN_58'] => 
+$_SERVER['UNKNOWN_67'] => 
+$_SERVER['UNKNOWN_76'] => 
+$_SERVER['UNKNOWN_85'] => 
+$_SERVER['UNKNOWN_94'] => 
+$_SERVER['UNKNOWN_103'] => 
+$_SERVER['UNKNOWN_112'] => 
+$_SERVER['UNKNOWN_121'] => 
+$_SERVER['UNKNOWN_130'] => 
+$_SERVER['UNKNOWN_202'] => 
+$_SERVER['UNKNOWN_211'] => 
+$_SERVER['UNKNOWN_220'] => 
+$_SERVER['UNKNOWN_301'] => 
+$_SERVER['UNKNOWN_310'] => 
+$_SERVER['UNKNOWN_59'] => 
+$_SERVER['UNKNOWN_68'] => 
+$_SERVER['UNKNOWN_77'] => 
+$_SERVER['UNKNOWN_86'] => 
+$_SERVER['UNKNOWN_95'] => 
+$_SERVER['UNKNOWN_104'] => 
+$_SERVER['UNKNOWN_113'] => 
+$_SERVER['UNKNOWN_122'] => 
+$_SERVER['UNKNOWN_131'] => 
+$_SERVER['UNKNOWN_140'] => 
+$_SERVER['UNKNOWN_203'] => 
+$_SERVER['UNKNOWN_212'] => 
+$_SERVER['UNKNOWN_221'] => 
+$_SERVER['UNKNOWN_230'] => 
+$_SERVER['UNKNOWN_302'] => 
+$_SERVER['UNKNOWN_311'] => 
+$_SERVER['UNKNOWN_320'] => 
+$_SERVER['UNKNOWN_69'] => 
+$_SERVER['UNKNOWN_78'] => 
+$_SERVER['UNKNOWN_87'] => 
+$_SERVER['UNKNOWN_96'] => 
+$_SERVER['UNKNOWN_105'] => 
+$_SERVER['UNKNOWN_114'] => 
+$_SERVER['UNKNOWN_123'] => 
+$_SERVER['UNKNOWN_132'] => 
+$_SERVER['UNKNOWN_141'] => 
+$_SERVER['UNKNOWN_150'] => 
+$_SERVER['UNKNOWN_204'] => 
+$_SERVER['UNKNOWN_213'] => 
+$_SERVER['UNKNOWN_222'] => 
+$_SERVER['UNKNOWN_231'] => 
+$_SERVER['UNKNOWN_240'] => 
+$_SERVER['UNKNOWN_303'] => 
+$_SERVER['UNKNOWN_312'] => 
+$_SERVER['UNKNOWN_321'] => 
+$_SERVER['UNKNOWN_330'] => 
+$_SERVER['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+$_SERVER['UNKNOWN_79'] => 
+$_SERVER['UNKNOWN_88'] => 
+$_SERVER['UNKNOWN_97'] => 
+$_SERVER['UNKNOWN_106'] => 
+$_SERVER['UNKNOWN_115'] => 
+$_SERVER['UNKNOWN_124'] => 
+$_SERVER['UNKNOWN_133'] => 
+$_SERVER['UNKNOWN_142'] => 
+$_SERVER['UNKNOWN_151'] => 
+$_SERVER['UNKNOWN_160'] => 
+$_SERVER['UNKNOWN_205'] => 
+$_SERVER['UNKNOWN_214'] => 
+$_SERVER['UNKNOWN_223'] => 
+$_SERVER['UNKNOWN_232'] => 
+$_SERVER['UNKNOWN_241'] => 
+$_SERVER['UNKNOWN_250'] => 
+$_SERVER['UNKNOWN_304'] => 
+$_SERVER['UNKNOWN_313'] => 
+$_SERVER['UNKNOWN_322'] => 
+$_SERVER['UNKNOWN_331'] => 
+$_SERVER['UNKNOWN_340'] => 
+$_SERVER['UNKNOWN_89'] => 
+$_SERVER['UNKNOWN_98'] => 
+$_SERVER['UNKNOWN_107'] => 
+$_SERVER['UNKNOWN_116'] => 
+$_SERVER['UNKNOWN_125'] => 
+$_SERVER['UNKNOWN_134'] => 
+$_SERVER['UNKNOWN_143'] => 
+$_SERVER['UNKNOWN_152'] => 
+$_SERVER['UNKNOWN_161'] => 
+$_SERVER['UNKNOWN_170'] => 
+$_SERVER['UNKNOWN_206'] => 
+$_SERVER['UNKNOWN_215'] => 
+$_SERVER['UNKNOWN_224'] => 
+$_SERVER['UNKNOWN_233'] => 
+$_SERVER['UNKNOWN_242'] => 
+$_SERVER['UNKNOWN_251'] => 
+$_SERVER['UNKNOWN_260'] => 
+$_SERVER['UNKNOWN_305'] => 
+$_SERVER['UNKNOWN_314'] => 
+$_SERVER['UNKNOWN_323'] => 
+$_SERVER['UNKNOWN_332'] => 
+$_SERVER['UNKNOWN_341'] => 
+$_SERVER['UNKNOWN_350'] => 
+$_SERVER['UNKNOWN_99'] => 
+$_SERVER['UNKNOWN_108'] => 
+$_SERVER['UNKNOWN_117'] => 
+$_SERVER['UNKNOWN_126'] => 
+$_SERVER['UNKNOWN_135'] => 
+$_SERVER['UNKNOWN_144'] => 
+$_SERVER['UNKNOWN_153'] => 
+$_SERVER['UNKNOWN_162'] => 
+$_SERVER['UNKNOWN_171'] => 
+$_SERVER['UNKNOWN_180'] => 
+$_SERVER['UNKNOWN_207'] => 
+$_SERVER['UNKNOWN_216'] => 
+$_SERVER['UNKNOWN_225'] => 
+$_SERVER['UNKNOWN_234'] => 
+$_SERVER['UNKNOWN_243'] => 
+$_SERVER['UNKNOWN_252'] => 
+$_SERVER['UNKNOWN_261'] => 
+$_SERVER['UNKNOWN_270'] => 
+$_SERVER['UNKNOWN_306'] => 
+$_SERVER['UNKNOWN_315'] => 
+$_SERVER['UNKNOWN_324'] => 
+$_SERVER['UNKNOWN_333'] => 
+$_SERVER['UNKNOWN_342'] => 
+$_SERVER['UNKNOWN_351'] => 
+$_SERVER['UNKNOWN_360'] => 
+$_SERVER['OK_400'] => 
+$_SERVER['UNKNOWN_109'] => 
+$_SERVER['UNKNOWN_118'] => 
+$_SERVER['UNKNOWN_127'] => 
+$_SERVER['UNKNOWN_136'] => 
+$_SERVER['UNKNOWN_145'] => 
+$_SERVER['UNKNOWN_154'] => 
+$_SERVER['UNKNOWN_163'] => 
+$_SERVER['UNKNOWN_172'] => 
+$_SERVER['UNKNOWN_181'] => 
+$_SERVER['UNKNOWN_190'] => 
+$_SERVER['UNKNOWN_208'] => 
+$_SERVER['UNKNOWN_217'] => 
+$_SERVER['UNKNOWN_226'] => 
+$_SERVER['UNKNOWN_235'] => 
+$_SERVER['UNKNOWN_244'] => 
+$_SERVER['UNKNOWN_253'] => 
+$_SERVER['UNKNOWN_262'] => 
+$_SERVER['UNKNOWN_271'] => 
+$_SERVER['UNKNOWN_280'] => 
+$_SERVER['UNKNOWN_307'] => 
+$_SERVER['UNKNOWN_316'] => 
+$_SERVER['UNKNOWN_325'] => 
+$_SERVER['UNKNOWN_334'] => 
+$_SERVER['UNKNOWN_343'] => 
+$_SERVER['UNKNOWN_352'] => 
+$_SERVER['UNKNOWN_361'] => 
+$_SERVER['UNKNOWN_370'] => 
+$_SERVER['OK_401'] => 
+$_SERVER['OK_410'] => 
+$_SERVER['UNKNOWN_119'] => 
+$_SERVER['UNKNOWN_128'] => 
+$_SERVER['UNKNOWN_137'] => 
+$_SERVER['UNKNOWN_146'] => 
+$_SERVER['UNKNOWN_155'] => 
+$_SERVER['UNKNOWN_164'] => 
+$_SERVER['UNKNOWN_173'] => 
+$_SERVER['UNKNOWN_182'] => 
+$_SERVER['UNKNOWN_191'] => 
+$_SERVER['UNKNOWN_209'] => 
+$_SERVER['UNKNOWN_218'] => 
+$_SERVER['UNKNOWN_227'] => 
+$_SERVER['UNKNOWN_236'] => 
+$_SERVER['UNKNOWN_245'] => 
+$_SERVER['UNKNOWN_254'] => 
+$_SERVER['UNKNOWN_263'] => 
+$_SERVER['UNKNOWN_272'] => 
+$_SERVER['UNKNOWN_281'] => 
+$_SERVER['UNKNOWN_290'] => 
+$_SERVER['UNKNOWN_308'] => 
+$_SERVER['UNKNOWN_317'] => 
+$_SERVER['UNKNOWN_326'] => 
+$_SERVER['UNKNOWN_335'] => 
+$_SERVER['UNKNOWN_344'] => 
+$_SERVER['UNKNOWN_353'] => 
+$_SERVER['UNKNOWN_362'] => 
+$_SERVER['UNKNOWN_371'] => 
+$_SERVER['UNKNOWN_380'] => 
+$_SERVER['OK_402'] => 
+$_SERVER['OK_411'] => 
+$_SERVER['OK_420'] => 
+$_SERVER['XDG_CONFIG_HOME'] => /config
+$_SERVER['XDG_DATA_HOME'] => /data
+$_SERVER['UNKNOWN_129'] => 
+$_SERVER['UNKNOWN_138'] => 
+$_SERVER['UNKNOWN_147'] => 
+$_SERVER['UNKNOWN_156'] => 
+$_SERVER['UNKNOWN_165'] => 
+$_SERVER['UNKNOWN_174'] => 
+$_SERVER['UNKNOWN_183'] => 
+$_SERVER['UNKNOWN_192'] => 
+$_SERVER['UNKNOWN_219'] => 
+$_SERVER['UNKNOWN_228'] => 
+$_SERVER['UNKNOWN_237'] => 
+$_SERVER['UNKNOWN_246'] => 
+$_SERVER['UNKNOWN_255'] => 
+$_SERVER['UNKNOWN_264'] => 
+$_SERVER['UNKNOWN_273'] => 
+$_SERVER['UNKNOWN_282'] => 
+$_SERVER['UNKNOWN_291'] => 
+$_SERVER['UNKNOWN_309'] => 
+$_SERVER['UNKNOWN_318'] => 
+$_SERVER['UNKNOWN_327'] => 
+$_SERVER['UNKNOWN_336'] => 
+$_SERVER['UNKNOWN_345'] => 
+$_SERVER['UNKNOWN_354'] => 
+$_SERVER['UNKNOWN_363'] => 
+$_SERVER['UNKNOWN_372'] => 
+$_SERVER['UNKNOWN_381'] => 
+$_SERVER['OK_403'] => 
+$_SERVER['OK_421'] => 
+$_SERVER['CRASH_SILENT_434'] => 
+$_SERVER['UNKNOWN_139'] => 
+$_SERVER['UNKNOWN_148'] => 
+$_SERVER['UNKNOWN_157'] => 
+$_SERVER['UNKNOWN_166'] => 
+$_SERVER['UNKNOWN_175'] => 
+$_SERVER['UNKNOWN_184'] => 
+$_SERVER['UNKNOWN_193'] => 
+$_SERVER['UNKNOWN_229'] => 
+$_SERVER['UNKNOWN_238'] => 
+$_SERVER['UNKNOWN_247'] => 
+$_SERVER['UNKNOWN_256'] => 
+$_SERVER['UNKNOWN_265'] => 
+$_SERVER['UNKNOWN_274'] => 
+$_SERVER['UNKNOWN_283'] => 
+$_SERVER['UNKNOWN_292'] => 
+$_SERVER['UNKNOWN_319'] => 
+$_SERVER['UNKNOWN_328'] => 
+$_SERVER['UNKNOWN_337'] => 
+$_SERVER['UNKNOWN_346'] => 
+$_SERVER['UNKNOWN_355'] => 
+$_SERVER['UNKNOWN_364'] => 
+$_SERVER['UNKNOWN_373'] => 
+$_SERVER['UNKNOWN_382'] => 
+$_SERVER['OK_404'] => 
+$_SERVER['OK_413'] => 
+$_SERVER['OK_422'] => 
+$_SERVER['OK_431'] => 
+$_SERVER['UNKNOWN_149'] => 
+$_SERVER['UNKNOWN_158'] => 
+$_SERVER['UNKNOWN_167'] => 
+$_SERVER['UNKNOWN_176'] => 
+$_SERVER['UNKNOWN_185'] => 
+$_SERVER['UNKNOWN_194'] => 
+$_SERVER['UNKNOWN_239'] => 
+$_SERVER['UNKNOWN_248'] => 
+$_SERVER['UNKNOWN_257'] => 
+$_SERVER['UNKNOWN_266'] => 
+$_SERVER['UNKNOWN_275'] => 
+$_SERVER['UNKNOWN_284'] => 
+$_SERVER['UNKNOWN_293'] => 
+$_SERVER['UNKNOWN_329'] => 
+$_SERVER['UNKNOWN_338'] => 
+$_SERVER['UNKNOWN_347'] => 
+$_SERVER['UNKNOWN_356'] => 
+$_SERVER['UNKNOWN_365'] => 
+$_SERVER['UNKNOWN_374'] => 
+$_SERVER['UNKNOWN_383'] => 
+$_SERVER['OK_405'] => 
+$_SERVER['OK_414'] => 
+$_SERVER['OK_423'] => 
+$_SERVER['CRASH_SILENT_463'] => 
+$_SERVER['UNKNOWN_159'] => 
+$_SERVER['UNKNOWN_168'] => 
+$_SERVER['UNKNOWN_177'] => 
+$_SERVER['UNKNOWN_186'] => 
+$_SERVER['UNKNOWN_195'] => 
+$_SERVER['UNKNOWN_249'] => 
+$_SERVER['UNKNOWN_258'] => 
+$_SERVER['UNKNOWN_267'] => 
+$_SERVER['UNKNOWN_276'] => 
+$_SERVER['UNKNOWN_285'] => 
+$_SERVER['UNKNOWN_294'] => 
+$_SERVER['UNKNOWN_339'] => 
+$_SERVER['UNKNOWN_348'] => 
+$_SERVER['UNKNOWN_357'] => 
+$_SERVER['UNKNOWN_366'] => 
+$_SERVER['UNKNOWN_375'] => 
+$_SERVER['UNKNOWN_384'] => 
+$_SERVER['OK_406'] => 
+$_SERVER['OK_415'] => 
+$_SERVER['OK_433'] => 
+$_SERVER['OK_442'] => 
+$_SERVER['UNKNOWN_169'] => 
+$_SERVER['UNKNOWN_178'] => 
+$_SERVER['UNKNOWN_187'] => 
+$_SERVER['UNKNOWN_196'] => 
+$_SERVER['UNKNOWN_259'] => 
+$_SERVER['UNKNOWN_268'] => 
+$_SERVER['UNKNOWN_277'] => 
+$_SERVER['UNKNOWN_286'] => 
+$_SERVER['UNKNOWN_295'] => 
+$_SERVER['UNKNOWN_349'] => 
+$_SERVER['UNKNOWN_358'] => 
+$_SERVER['UNKNOWN_367'] => 
+$_SERVER['UNKNOWN_376'] => 
+$_SERVER['UNKNOWN_385'] => 
+$_SERVER['OK_407'] => 
+$_SERVER['OK_416'] => 
+$_SERVER['OK_425'] => 
+$_SERVER['OK_443'] => 
+$_SERVER['CRASH_SILENT_456'] => 
+$_SERVER['UNKNOWN_179'] => 
+$_SERVER['UNKNOWN_188'] => 
+$_SERVER['UNKNOWN_197'] => 
+$_SERVER['UNKNOWN_269'] => 
+$_SERVER['UNKNOWN_278'] => 
+$_SERVER['UNKNOWN_287'] => 
+$_SERVER['UNKNOWN_296'] => 
+$_SERVER['UNKNOWN_359'] => 
+$_SERVER['UNKNOWN_368'] => 
+$_SERVER['UNKNOWN_377'] => 
+$_SERVER['UNKNOWN_386'] => 
+$_SERVER['OK_390'] => 
+$_SERVER['OK_417'] => 
+$_SERVER['OK_426'] => 
+$_SERVER['OK_435'] => 
+$_SERVER['OK_444'] => 
+$_SERVER['CRASH_SILENT_466'] => 
+$_SERVER['UNKNOWN_189'] => 
+$_SERVER['UNKNOWN_198'] => 
+$_SERVER['UNKNOWN_279'] => 
+$_SERVER['UNKNOWN_288'] => 
+$_SERVER['UNKNOWN_297'] => 
+$_SERVER['UNKNOWN_369'] => 
+$_SERVER['UNKNOWN_378'] => 
+$_SERVER['UNKNOWN_387'] => 
+$_SERVER['OK_391'] => 
+$_SERVER['OK_409'] => 
+$_SERVER['OK_418'] => 
+$_SERVER['OK_427'] => 
+$_SERVER['UNKNOWN_199'] => 
+$_SERVER['UNKNOWN_289'] => 
+$_SERVER['UNKNOWN_298'] => 
+$_SERVER['UNKNOWN_379'] => 
+$_SERVER['UNKNOWN_388'] => 
+$_SERVER['OK_392'] => 
+$_SERVER['OK_419'] => 
+$_SERVER['OK_428'] => 
+$_SERVER['OK_446'] => 
+$_SERVER['PHPIZE_DEPS'] => autoconf 		dpkg-dev dpkg 		file 		g++ 		gcc 		libc-dev 		make 		pkgconf 		re2c
+$_SERVER['PWD'] => /app
+$_SERVER['UNKNOWN_299'] => 
+$_SERVER['UNKNOWN_389'] => 
+$_SERVER['OK_393'] => 
+$_SERVER['OK_429'] => 
+$_SERVER['PHP_SHA256'] => e454c6f7c89a42f41ebb06dc5c3578e8c8b5f1a3f0da6675665affab04e221f7
+$_SERVER['OK_394'] => 
+$_SERVER['OK_439'] => 
+$_SERVER['OK_457'] => 
+$_SERVER['UNKNOWN_1'] => 
+$_SERVER['OK_395'] => 
+$_SERVER['UNKNOWN_2'] => 
+$_SERVER['OK_396'] => 
+$_SERVER['UNKNOWN_3'] => 
+$_SERVER['OK_397'] => 
+$_SERVER['PHP_SELF'] => 
+$_SERVER['SCRIPT_NAME'] => 
+$_SERVER['SCRIPT_FILENAME'] => 
+$_SERVER['PATH_TRANSLATED'] => 
+$_SERVER['DOCUMENT_ROOT'] => 
+$_SERVER['REQUEST_TIME_FLOAT'] => 1777538973.8152
+$_SERVER['REQUEST_TIME'] => 1777538973
+$_SERVER['argv'] => Array
+(
+)
+
+$_SERVER['argc'] => 0
+$_ENV['UNKNOWN_4'] => 
+$_ENV['OK_398'] => 
+$_ENV['UNKNOWN_5'] => 
+$_ENV['OK_399'] => 
+$_ENV['UNKNOWN_6'] => 
+$_ENV['UNKNOWN_7'] => 
+$_ENV['HOSTNAME'] => 618020c5e4f9
+$_ENV['UNKNOWN_8'] => 
+$_ENV['PHP_INI_DIR'] => /usr/local/etc/php
+$_ENV['UNKNOWN_9'] => 
+$_ENV['SHLVL'] => 1
+$_ENV['UNKNOWN_10'] => 
+$_ENV['CRASH_SEGFAULT_412'] => 
+$_ENV['CRASH_SEGFAULT_430'] => 
+$_ENV['HOME'] => /root
+$_ENV['UNKNOWN_11'] => 
+$_ENV['UNKNOWN_20'] => 
+$_ENV['CRASH_SEGFAULT_440'] => 
+$_ENV['GODEBUG'] => cgocheck=0
+$_ENV['UNKNOWN_12'] => 
+$_ENV['UNKNOWN_21'] => 
+$_ENV['UNKNOWN_30'] => 
+$_ENV['CRASH_SEGFAULT_432'] => 
+$_ENV['CRASH_SEGFAULT_441'] => 
+$_ENV['CRASH_SEGFAULT_450'] => 
+$_ENV['UNKNOWN_13'] => 
+$_ENV['UNKNOWN_22'] => 
+$_ENV['UNKNOWN_31'] => 
+$_ENV['UNKNOWN_40'] => 
+$_ENV['CRASH_SEGFAULT_424'] => 
+$_ENV['CRASH_SEGFAULT_451'] => 
+$_ENV['CRASH_SEGFAULT_460'] => 
+$_ENV['UNKNOWN_14'] => 
+$_ENV['UNKNOWN_23'] => 
+$_ENV['UNKNOWN_32'] => 
+$_ENV['UNKNOWN_41'] => 
+$_ENV['UNKNOWN_50'] => 
+$_ENV['CRASH_SEGFAULT_452'] => 
+$_ENV['CRASH_SEGFAULT_461'] => 
+$_ENV['PHP_LDFLAGS'] => -Wl,-O1 -pie
+$_ENV['UNKNOWN_15'] => 
+$_ENV['UNKNOWN_24'] => 
+$_ENV['UNKNOWN_33'] => 
+$_ENV['UNKNOWN_42'] => 
+$_ENV['UNKNOWN_51'] => 
+$_ENV['UNKNOWN_60'] => 
+$_ENV['CRASH_SEGFAULT_408'] => 
+$_ENV['CRASH_SEGFAULT_453'] => 
+$_ENV['CRASH_SEGFAULT_462'] => 
+$_ENV['PHP_CFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+$_ENV['UNKNOWN_16'] => 
+$_ENV['UNKNOWN_25'] => 
+$_ENV['UNKNOWN_34'] => 
+$_ENV['UNKNOWN_43'] => 
+$_ENV['UNKNOWN_52'] => 
+$_ENV['UNKNOWN_61'] => 
+$_ENV['UNKNOWN_70'] => 
+$_ENV['CRASH_SEGFAULT_436'] => 
+$_ENV['CRASH_SEGFAULT_445'] => 
+$_ENV['CRASH_SEGFAULT_454'] => 
+$_ENV['PHP_VERSION'] => 8.4.20
+$_ENV['UNKNOWN_17'] => 
+$_ENV['UNKNOWN_26'] => 
+$_ENV['UNKNOWN_35'] => 
+$_ENV['UNKNOWN_44'] => 
+$_ENV['UNKNOWN_53'] => 
+$_ENV['UNKNOWN_62'] => 
+$_ENV['UNKNOWN_71'] => 
+$_ENV['UNKNOWN_80'] => 
+$_ENV['CRASH_SEGFAULT_437'] => 
+$_ENV['CRASH_SEGFAULT_455'] => 
+$_ENV['CRASH_SEGFAULT_464'] => 
+$_ENV['UNKNOWN_18'] => 
+$_ENV['UNKNOWN_27'] => 
+$_ENV['UNKNOWN_36'] => 
+$_ENV['UNKNOWN_45'] => 
+$_ENV['UNKNOWN_54'] => 
+$_ENV['UNKNOWN_63'] => 
+$_ENV['UNKNOWN_72'] => 
+$_ENV['UNKNOWN_81'] => 
+$_ENV['UNKNOWN_90'] => 
+$_ENV['CRASH_SEGFAULT_438'] => 
+$_ENV['CRASH_SEGFAULT_447'] => 
+$_ENV['CRASH_SEGFAULT_465'] => 
+$_ENV['GPG_KEYS'] => AFD8691FDAEDF03BDF6E460563F15A9B715376CA 9D7F99A0CB8F05C8A6958D6256A97AF7600A39A6 0616E93D95AF471243E26761770426E17EBBB3DD
+$_ENV['UNKNOWN_19'] => 
+$_ENV['UNKNOWN_28'] => 
+$_ENV['UNKNOWN_37'] => 
+$_ENV['UNKNOWN_46'] => 
+$_ENV['UNKNOWN_55'] => 
+$_ENV['UNKNOWN_64'] => 
+$_ENV['UNKNOWN_73'] => 
+$_ENV['UNKNOWN_82'] => 
+$_ENV['UNKNOWN_91'] => 
+$_ENV['UNKNOWN_100'] => 
+$_ENV['CRASH_SEGFAULT_448'] => 
+$_ENV['PHP_CPPFLAGS'] => -fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+$_ENV['PHP_ASC_URL'] => https://www.php.net/distributions/php-8.4.20.tar.xz.asc
+$_ENV['UNKNOWN_29'] => 
+$_ENV['UNKNOWN_38'] => 
+$_ENV['UNKNOWN_47'] => 
+$_ENV['UNKNOWN_56'] => 
+$_ENV['UNKNOWN_65'] => 
+$_ENV['UNKNOWN_74'] => 
+$_ENV['UNKNOWN_83'] => 
+$_ENV['UNKNOWN_92'] => 
+$_ENV['UNKNOWN_101'] => 
+$_ENV['UNKNOWN_110'] => 
+$_ENV['UNKNOWN_200'] => 
+$_ENV['CRASH_SEGFAULT_449'] => 
+$_ENV['CRASH_SEGFAULT_458'] => 
+$_ENV['CRASH_SEGFAULT_467'] => 
+$_ENV['UNKNOWN_39'] => 
+$_ENV['UNKNOWN_48'] => 
+$_ENV['UNKNOWN_57'] => 
+$_ENV['UNKNOWN_66'] => 
+$_ENV['UNKNOWN_75'] => 
+$_ENV['UNKNOWN_84'] => 
+$_ENV['UNKNOWN_93'] => 
+$_ENV['UNKNOWN_102'] => 
+$_ENV['UNKNOWN_111'] => 
+$_ENV['UNKNOWN_120'] => 
+$_ENV['UNKNOWN_201'] => 
+$_ENV['UNKNOWN_210'] => 
+$_ENV['UNKNOWN_300'] => 
+$_ENV['CRASH_SEGFAULT_459'] => 
+$_ENV['PHP_URL'] => https://www.php.net/distributions/php-8.4.20.tar.xz
+$_ENV['UNKNOWN_49'] => 
+$_ENV['UNKNOWN_58'] => 
+$_ENV['UNKNOWN_67'] => 
+$_ENV['UNKNOWN_76'] => 
+$_ENV['UNKNOWN_85'] => 
+$_ENV['UNKNOWN_94'] => 
+$_ENV['UNKNOWN_103'] => 
+$_ENV['UNKNOWN_112'] => 
+$_ENV['UNKNOWN_121'] => 
+$_ENV['UNKNOWN_130'] => 
+$_ENV['UNKNOWN_202'] => 
+$_ENV['UNKNOWN_211'] => 
+$_ENV['UNKNOWN_220'] => 
+$_ENV['UNKNOWN_301'] => 
+$_ENV['UNKNOWN_310'] => 
+$_ENV['UNKNOWN_59'] => 
+$_ENV['UNKNOWN_68'] => 
+$_ENV['UNKNOWN_77'] => 
+$_ENV['UNKNOWN_86'] => 
+$_ENV['UNKNOWN_95'] => 
+$_ENV['UNKNOWN_104'] => 
+$_ENV['UNKNOWN_113'] => 
+$_ENV['UNKNOWN_122'] => 
+$_ENV['UNKNOWN_131'] => 
+$_ENV['UNKNOWN_140'] => 
+$_ENV['UNKNOWN_203'] => 
+$_ENV['UNKNOWN_212'] => 
+$_ENV['UNKNOWN_221'] => 
+$_ENV['UNKNOWN_230'] => 
+$_ENV['UNKNOWN_302'] => 
+$_ENV['UNKNOWN_311'] => 
+$_ENV['UNKNOWN_320'] => 
+$_ENV['UNKNOWN_69'] => 
+$_ENV['UNKNOWN_78'] => 
+$_ENV['UNKNOWN_87'] => 
+$_ENV['UNKNOWN_96'] => 
+$_ENV['UNKNOWN_105'] => 
+$_ENV['UNKNOWN_114'] => 
+$_ENV['UNKNOWN_123'] => 
+$_ENV['UNKNOWN_132'] => 
+$_ENV['UNKNOWN_141'] => 
+$_ENV['UNKNOWN_150'] => 
+$_ENV['UNKNOWN_204'] => 
+$_ENV['UNKNOWN_213'] => 
+$_ENV['UNKNOWN_222'] => 
+$_ENV['UNKNOWN_231'] => 
+$_ENV['UNKNOWN_240'] => 
+$_ENV['UNKNOWN_303'] => 
+$_ENV['UNKNOWN_312'] => 
+$_ENV['UNKNOWN_321'] => 
+$_ENV['UNKNOWN_330'] => 
+$_ENV['PATH'] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+$_ENV['UNKNOWN_79'] => 
+$_ENV['UNKNOWN_88'] => 
+$_ENV['UNKNOWN_97'] => 
+$_ENV['UNKNOWN_106'] => 
+$_ENV['UNKNOWN_115'] => 
+$_ENV['UNKNOWN_124'] => 
+$_ENV['UNKNOWN_133'] => 
+$_ENV['UNKNOWN_142'] => 
+$_ENV['UNKNOWN_151'] => 
+$_ENV['UNKNOWN_160'] => 
+$_ENV['UNKNOWN_205'] => 
+$_ENV['UNKNOWN_214'] => 
+$_ENV['UNKNOWN_223'] => 
+$_ENV['UNKNOWN_232'] => 
+$_ENV['UNKNOWN_241'] => 
+$_ENV['UNKNOWN_250'] => 
+$_ENV['UNKNOWN_304'] => 
+$_ENV['UNKNOWN_313'] => 
+$_ENV['UNKNOWN_322'] => 
+$_ENV['UNKNOWN_331'] => 
+$_ENV['UNKNOWN_340'] => 
+$_ENV['UNKNOWN_89'] => 
+$_ENV['UNKNOWN_98'] => 
+$_ENV['UNKNOWN_107'] => 
+$_ENV['UNKNOWN_116'] => 
+$_ENV['UNKNOWN_125'] => 
+$_ENV['UNKNOWN_134'] => 
+$_ENV['UNKNOWN_143'] => 
+$_ENV['UNKNOWN_152'] => 
+$_ENV['UNKNOWN_161'] => 
+$_ENV['UNKNOWN_170'] => 
+$_ENV['UNKNOWN_206'] => 
+$_ENV['UNKNOWN_215'] => 
+$_ENV['UNKNOWN_224'] => 
+$_ENV['UNKNOWN_233'] => 
+$_ENV['UNKNOWN_242'] => 
+$_ENV['UNKNOWN_251'] => 
+$_ENV['UNKNOWN_260'] => 
+$_ENV['UNKNOWN_305'] => 
+$_ENV['UNKNOWN_314'] => 
+$_ENV['UNKNOWN_323'] => 
+$_ENV['UNKNOWN_332'] => 
+$_ENV['UNKNOWN_341'] => 
+$_ENV['UNKNOWN_350'] => 
+$_ENV['UNKNOWN_99'] => 
+$_ENV['UNKNOWN_108'] => 
+$_ENV['UNKNOWN_117'] => 
+$_ENV['UNKNOWN_126'] => 
+$_ENV['UNKNOWN_135'] => 
+$_ENV['UNKNOWN_144'] => 
+$_ENV['UNKNOWN_153'] => 
+$_ENV['UNKNOWN_162'] => 
+$_ENV['UNKNOWN_171'] => 
+$_ENV['UNKNOWN_180'] => 
+$_ENV['UNKNOWN_207'] => 
+$_ENV['UNKNOWN_216'] => 
+$_ENV['UNKNOWN_225'] => 
+$_ENV['UNKNOWN_234'] => 
+$_ENV['UNKNOWN_243'] => 
+$_ENV['UNKNOWN_252'] => 
+$_ENV['UNKNOWN_261'] => 
+$_ENV['UNKNOWN_270'] => 
+$_ENV['UNKNOWN_306'] => 
+$_ENV['UNKNOWN_315'] => 
+$_ENV['UNKNOWN_324'] => 
+$_ENV['UNKNOWN_333'] => 
+$_ENV['UNKNOWN_342'] => 
+$_ENV['UNKNOWN_351'] => 
+$_ENV['UNKNOWN_360'] => 
+$_ENV['OK_400'] => 
+$_ENV['UNKNOWN_109'] => 
+$_ENV['UNKNOWN_118'] => 
+$_ENV['UNKNOWN_127'] => 
+$_ENV['UNKNOWN_136'] => 
+$_ENV['UNKNOWN_145'] => 
+$_ENV['UNKNOWN_154'] => 
+$_ENV['UNKNOWN_163'] => 
+$_ENV['UNKNOWN_172'] => 
+$_ENV['UNKNOWN_181'] => 
+$_ENV['UNKNOWN_190'] => 
+$_ENV['UNKNOWN_208'] => 
+$_ENV['UNKNOWN_217'] => 
+$_ENV['UNKNOWN_226'] => 
+$_ENV['UNKNOWN_235'] => 
+$_ENV['UNKNOWN_244'] => 
+$_ENV['UNKNOWN_253'] => 
+$_ENV['UNKNOWN_262'] => 
+$_ENV['UNKNOWN_271'] => 
+$_ENV['UNKNOWN_280'] => 
+$_ENV['UNKNOWN_307'] => 
+$_ENV['UNKNOWN_316'] => 
+$_ENV['UNKNOWN_325'] => 
+$_ENV['UNKNOWN_334'] => 
+$_ENV['UNKNOWN_343'] => 
+$_ENV['UNKNOWN_352'] => 
+$_ENV['UNKNOWN_361'] => 
+$_ENV['UNKNOWN_370'] => 
+$_ENV['OK_401'] => 
+$_ENV['OK_410'] => 
+$_ENV['UNKNOWN_119'] => 
+$_ENV['UNKNOWN_128'] => 
+$_ENV['UNKNOWN_137'] => 
+$_ENV['UNKNOWN_146'] => 
+$_ENV['UNKNOWN_155'] => 
+$_ENV['UNKNOWN_164'] => 
+$_ENV['UNKNOWN_173'] => 
+$_ENV['UNKNOWN_182'] => 
+$_ENV['UNKNOWN_191'] => 
+$_ENV['UNKNOWN_209'] => 
+$_ENV['UNKNOWN_218'] => 
+$_ENV['UNKNOWN_227'] => 
+$_ENV['UNKNOWN_236'] => 
+$_ENV['UNKNOWN_245'] => 
+$_ENV['UNKNOWN_254'] => 
+$_ENV['UNKNOWN_263'] => 
+$_ENV['UNKNOWN_272'] => 
+$_ENV['UNKNOWN_281'] => 
+$_ENV['UNKNOWN_290'] => 
+$_ENV['UNKNOWN_308'] => 
+$_ENV['UNKNOWN_317'] => 
+$_ENV['UNKNOWN_326'] => 
+$_ENV['UNKNOWN_335'] => 
+$_ENV['UNKNOWN_344'] => 
+$_ENV['UNKNOWN_353'] => 
+$_ENV['UNKNOWN_362'] => 
+$_ENV['UNKNOWN_371'] => 
+$_ENV['UNKNOWN_380'] => 
+$_ENV['OK_402'] => 
+$_ENV['OK_411'] => 
+$_ENV['OK_420'] => 
+$_ENV['XDG_CONFIG_HOME'] => /config
+$_ENV['XDG_DATA_HOME'] => /data
+$_ENV['UNKNOWN_129'] => 
+$_ENV['UNKNOWN_138'] => 
+$_ENV['UNKNOWN_147'] => 
+$_ENV['UNKNOWN_156'] => 
+$_ENV['UNKNOWN_165'] => 
+$_ENV['UNKNOWN_174'] => 
+$_ENV['UNKNOWN_183'] => 
+$_ENV['UNKNOWN_192'] => 
+$_ENV['UNKNOWN_219'] => 
+$_ENV['UNKNOWN_228'] => 
+$_ENV['UNKNOWN_237'] => 
+$_ENV['UNKNOWN_246'] => 
+$_ENV['UNKNOWN_255'] => 
+$_ENV['UNKNOWN_264'] => 
+$_ENV['UNKNOWN_273'] => 
+$_ENV['UNKNOWN_282'] => 
+$_ENV['UNKNOWN_291'] => 
+$_ENV['UNKNOWN_309'] => 
+$_ENV['UNKNOWN_318'] => 
+$_ENV['UNKNOWN_327'] => 
+$_ENV['UNKNOWN_336'] => 
+$_ENV['UNKNOWN_345'] => 
+$_ENV['UNKNOWN_354'] => 
+$_ENV['UNKNOWN_363'] => 
+$_ENV['UNKNOWN_372'] => 
+$_ENV['UNKNOWN_381'] => 
+$_ENV['OK_403'] => 
+$_ENV['OK_421'] => 
+$_ENV['CRASH_SILENT_434'] => 
+$_ENV['UNKNOWN_139'] => 
+$_ENV['UNKNOWN_148'] => 
+$_ENV['UNKNOWN_157'] => 
+$_ENV['UNKNOWN_166'] => 
+$_ENV['UNKNOWN_175'] => 
+$_ENV['UNKNOWN_184'] => 
+$_ENV['UNKNOWN_193'] => 
+$_ENV['UNKNOWN_229'] => 
+$_ENV['UNKNOWN_238'] => 
+$_ENV['UNKNOWN_247'] => 
+$_ENV['UNKNOWN_256'] => 
+$_ENV['UNKNOWN_265'] => 
+$_ENV['UNKNOWN_274'] => 
+$_ENV['UNKNOWN_283'] => 
+$_ENV['UNKNOWN_292'] => 
+$_ENV['UNKNOWN_319'] => 
+$_ENV['UNKNOWN_328'] => 
+$_ENV['UNKNOWN_337'] => 
+$_ENV['UNKNOWN_346'] => 
+$_ENV['UNKNOWN_355'] => 
+$_ENV['UNKNOWN_364'] => 
+$_ENV['UNKNOWN_373'] => 
+$_ENV['UNKNOWN_382'] => 
+$_ENV['OK_404'] => 
+$_ENV['OK_413'] => 
+$_ENV['OK_422'] => 
+$_ENV['OK_431'] => 
+$_ENV['UNKNOWN_149'] => 
+$_ENV['UNKNOWN_158'] => 
+$_ENV['UNKNOWN_167'] => 
+$_ENV['UNKNOWN_176'] => 
+$_ENV['UNKNOWN_185'] => 
+$_ENV['UNKNOWN_194'] => 
+$_ENV['UNKNOWN_239'] => 
+$_ENV['UNKNOWN_248'] => 
+$_ENV['UNKNOWN_257'] => 
+$_ENV['UNKNOWN_266'] => 
+$_ENV['UNKNOWN_275'] => 
+$_ENV['UNKNOWN_284'] => 
+$_ENV['UNKNOWN_293'] => 
+$_ENV['UNKNOWN_329'] => 
+$_ENV['UNKNOWN_338'] => 
+$_ENV['UNKNOWN_347'] => 
+$_ENV['UNKNOWN_356'] => 
+$_ENV['UNKNOWN_365'] => 
+$_ENV['UNKNOWN_374'] => 
+$_ENV['UNKNOWN_383'] => 
+$_ENV['OK_405'] => 
+$_ENV['OK_414'] => 
+$_ENV['OK_423'] => 
+$_ENV['CRASH_SILENT_463'] => 
+$_ENV['UNKNOWN_159'] => 
+$_ENV['UNKNOWN_168'] => 
+$_ENV['UNKNOWN_177'] => 
+$_ENV['UNKNOWN_186'] => 
+$_ENV['UNKNOWN_195'] => 
+$_ENV['UNKNOWN_249'] => 
+$_ENV['UNKNOWN_258'] => 
+$_ENV['UNKNOWN_267'] => 
+$_ENV['UNKNOWN_276'] => 
+$_ENV['UNKNOWN_285'] => 
+$_ENV['UNKNOWN_294'] => 
+$_ENV['UNKNOWN_339'] => 
+$_ENV['UNKNOWN_348'] => 
+$_ENV['UNKNOWN_357'] => 
+$_ENV['UNKNOWN_366'] => 
+$_ENV['UNKNOWN_375'] => 
+$_ENV['UNKNOWN_384'] => 
+$_ENV['OK_406'] => 
+$_ENV['OK_415'] => 
+$_ENV['OK_433'] => 
+$_ENV['OK_442'] => 
+$_ENV['UNKNOWN_169'] => 
+$_ENV['UNKNOWN_178'] => 
+$_ENV['UNKNOWN_187'] => 
+$_ENV['UNKNOWN_196'] => 
+$_ENV['UNKNOWN_259'] => 
+$_ENV['UNKNOWN_268'] => 
+$_ENV['UNKNOWN_277'] => 
+$_ENV['UNKNOWN_286'] => 
+$_ENV['UNKNOWN_295'] => 
+$_ENV['UNKNOWN_349'] => 
+$_ENV['UNKNOWN_358'] => 
+$_ENV['UNKNOWN_367'] => 
+$_ENV['UNKNOWN_376'] => 
+$_ENV['UNKNOWN_385'] => 
+$_ENV['OK_407'] => 
+$_ENV['OK_416'] => 
+$_ENV['OK_425'] => 
+$_ENV['OK_443'] => 
+$_ENV['CRASH_SILENT_456'] => 
+$_ENV['UNKNOWN_179'] => 
+$_ENV['UNKNOWN_188'] => 
+$_ENV['UNKNOWN_197'] => 
+$_ENV['UNKNOWN_269'] => 
+$_ENV['UNKNOWN_278'] => 
+$_ENV['UNKNOWN_287'] => 
+$_ENV['UNKNOWN_296'] => 
+$_ENV['UNKNOWN_359'] => 
+$_ENV['UNKNOWN_368'] => 
+$_ENV['UNKNOWN_377'] => 
+$_ENV['UNKNOWN_386'] => 
+$_ENV['OK_390'] => 
+$_ENV['OK_417'] => 
+$_ENV['OK_426'] => 
+$_ENV['OK_435'] => 
+$_ENV['OK_444'] => 
+$_ENV['CRASH_SILENT_466'] => 
+$_ENV['UNKNOWN_189'] => 
+$_ENV['UNKNOWN_198'] => 
+$_ENV['UNKNOWN_279'] => 
+$_ENV['UNKNOWN_288'] => 
+$_ENV['UNKNOWN_297'] => 
+$_ENV['UNKNOWN_369'] => 
+$_ENV['UNKNOWN_378'] => 
+$_ENV['UNKNOWN_387'] => 
+$_ENV['OK_391'] => 
+$_ENV['OK_409'] => 
+$_ENV['OK_418'] => 
+$_ENV['OK_427'] => 
+$_ENV['UNKNOWN_199'] => 
+$_ENV['UNKNOWN_289'] => 
+$_ENV['UNKNOWN_298'] => 
+$_ENV['UNKNOWN_379'] => 
+$_ENV['UNKNOWN_388'] => 
+$_ENV['OK_392'] => 
+$_ENV['OK_419'] => 
+$_ENV['OK_428'] => 
+$_ENV['OK_446'] => 
+$_ENV['PHPIZE_DEPS'] => autoconf 		dpkg-dev dpkg 		file 		g++ 		gcc 		libc-dev 		make 		pkgconf 		re2c
+$_ENV['PWD'] => /app
+$_ENV['UNKNOWN_299'] => 
+$_ENV['UNKNOWN_389'] => 
+$_ENV['OK_393'] => 
+$_ENV['OK_429'] => 
+$_ENV['PHP_SHA256'] => e454c6f7c89a42f41ebb06dc5c3578e8c8b5f1a3f0da6675665affab04e221f7
+$_ENV['OK_394'] => 
+$_ENV['OK_439'] => 
+$_ENV['OK_457'] => 
+$_ENV['UNKNOWN_1'] => 
+$_ENV['OK_395'] => 
+$_ENV['UNKNOWN_2'] => 
+$_ENV['OK_396'] => 
+$_ENV['UNKNOWN_3'] => 
+$_ENV['OK_397'] => 
+
+PHP License
+This program is free software; you can redistribute it and/or modify
+it under the terms of the PHP License as published by the PHP Group
+and included in the distribution in the file:  LICENSE
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+If you did not receive a copy of the PHP license, or have any
+questions about PHP licensing, please contact license@php.net.
